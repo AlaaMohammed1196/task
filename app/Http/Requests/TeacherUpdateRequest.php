@@ -27,7 +27,7 @@ class TeacherUpdateRequest extends FormRequest
     {
         return [
             'name'=>'required|string',
-            'email'=>'required|email|unique:teachers,email,'.$this->id,
+            'email'=>'required|email|unique:teachers,email,'.$this->user()->id,
             'birth_date' =>'required|date',
             'degree' =>'required|string',
             'password'=>'sometimes|nullable',

@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/dashboard
+/public/dashboard.zip
 /storage/*.key
 /vendor
 .env
